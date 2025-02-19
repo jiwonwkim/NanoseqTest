@@ -47,7 +47,7 @@ Note that the last value is left empty as it is optional.
 
 
 ## Running nanoseq
-![image](https://github.com/user-attachments/assets/4b3c523f-a22b-459b-83e7-75e9d6ffe5d6)
+![image](https://github.com/user-attachments/assets/4b3c523f-a22b-459b-83e7-75e9d6ffe5d6) </br>
 Because we have BAM files, we are going to start the pipeline from samtools command.
 To do this, we need to provide two parameters: --skip_demultiplexing and --skip_alignment
 ```
