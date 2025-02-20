@@ -20,6 +20,7 @@ mv <bam file directory>/*.bam* data/bam // move the files from where they were t
 ```
 ### 2. CSV file
 You now need a **CSV file**, Comma-Separated Values, which lists your input files.  
+- [x] Make the CSV file
 ```
 touch samplesheet.csv
 nano samplesheet.csv
@@ -47,9 +48,10 @@ Note that the last value is left empty as it is optional.
 
 
 ## Running nanoseq
-![image](https://github.com/user-attachments/assets/4b3c523f-a22b-459b-83e7-75e9d6ffe5d6) </br>
+![image](https://github.com/user-attachments/assets/4b3c523f-a22b-459b-83e7-75e9d6ffe5d6)
 Because we have BAM files, we are going to start the pipeline from samtools command.
 To do this, we need to provide two parameters: --skip_demultiplexing and --skip_alignment
+- [x] Run the nanoseq 
 ```
 nextflow run nf-core/nanoseq \  // run nanoseq
     --input samplesheet.csv \   // provide the CSV file you created above
