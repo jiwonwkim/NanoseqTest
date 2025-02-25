@@ -1,4 +1,4 @@
 # Table of contents
 
-* [NanoseqTest](README.md)
+* [\[Test\] nf-core/nanoseq](README.md)
 * [Page 1](page-1.md)
